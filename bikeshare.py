@@ -22,7 +22,7 @@ def get_filters():
     cities =('chicago','washington', 'new york city')
     while True:
         try:
-            city = input('\nWhat city would you like to discover? choice from (chicago, new york city, washington)\n').lower()
+            city = input('\which city would you like to know about? choice from (chicago, new york city, washington)\n').lower()
             if city in cities:
                 break
             else:
